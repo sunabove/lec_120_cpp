@@ -21,3 +21,8 @@ Release
 *.vbproj.user
 ipch
 *sdf
+
+*.db
+
+#end of file
+*.db
