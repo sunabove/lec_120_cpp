@@ -24,5 +24,6 @@ ipch
 
 *.db
 
+*.vs/
+
 #end of file
-*.db
