@@ -25,13 +25,13 @@ int mainNewtonRaphson( int argc, char ** argv ) {
 	fprintf(out, "\n     Newton-Raphson Method Program");
 	fprintf(out, LINE);
 
-	number x = 6.0;
-	number y = 0;
+	number x = 1.0e7;
+	number y ;
 	int index = 0;
 
 	do {
 		y = f(x);
-		fprintf(out, "\n[%03d] f(%.20f) = %.20f", index, x, y);
+		fprintf(out, "\n[%03d] f(%.20f) = %.20f", (index + 1 ), x, y);
 		x = x - (y / derivative(x));
 		index++;
 	} while (y > epsilon || -y > epsilon);
