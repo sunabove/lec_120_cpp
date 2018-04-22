@@ -32,5 +32,8 @@
     <ClCompile Include="newton_raphson.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="sizeof_test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

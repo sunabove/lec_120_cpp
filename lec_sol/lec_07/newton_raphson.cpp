@@ -20,7 +20,7 @@ number derivative(number x) {
 
 int mainNewtonRaphson( int argc, char ** argv ) {
 	FILE * out = stdout;
-	const char * LINE = "\n**********************************************************";
+	const char * LINE = "\n*****************************************************************************";
 	fprintf(out, LINE);
 	fprintf(out, "\n     Newton-Raphson Method Program");
 	fprintf(out, LINE);
