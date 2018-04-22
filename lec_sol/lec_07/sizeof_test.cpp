@@ -9,16 +9,24 @@ size_t getSizeOfArray(int a[]) {
 	return sizeof(a);
 }
 
+void pressAnyKeyToContinue() {
+	FILE * out = stdout;
+	fflush(out);
+	fprintf(out, "\nEnter any key to continue. ");
+
+	_getch();
+}
+
 int mainSizeOfTest(int argc, char ** argv) {
 
 	FILE * out = stdout;
 	const char * LINE = "\n**********************************************************";
 	fprintf(out, LINE);
-	fprintf(out, "\n Array ");
+	fprintf(out, "\n   Array sizeof Test ");
 	fprintf(out, LINE);
 	fprintf(out, "\n");
 
-	if (false) {
+	if (true) {
 		fprintf(out, "\n%s\n", LINE);
 
 		int list[10];
@@ -35,11 +43,14 @@ int mainSizeOfTest(int argc, char ** argv) {
 			idx++;
 		}
 		fprintf(out, "\n%s\n", LINE);
+		
+		pressAnyKeyToContinue();
 	}
 
-	if (false) {
+
+	if (true) {
 		fprintf(out, "\n%s\n", LINE);
-		fprintf(out, "\n%s", "array for loop" );
+		fprintf(out, "\n%s", "   array for loop" );
 		fprintf(out, "\n%s\n", LINE);
 		int list[10];
 		int x;
@@ -49,27 +60,34 @@ int mainSizeOfTest(int argc, char ** argv) {
 			fprintf(out, "\n[%02d] x = %d", i, x);
 		}
 		fprintf(out, "\n%s\n", LINE);
+		
+		pressAnyKeyToContinue();
 	}
 
-	if (false) {
+	if (true) {
 		fprintf(out, "\n%s\n", LINE);
-		int list[10];
+		fprintf(out, "\n%s", "   array for loop using a pointer" );
+		fprintf(out, "\n%s\n", LINE);
+		const int listSize = 10; 
+		int list[ listSize ];
 		int * p = list;
 		int x;
-		fprintf(out, "\nsize of   x = %zu", sizeof(x));
-		fprintf(out, "\nsize of * p = %zu", sizeof(int *));
-		for (int i = 0; i < sizeof(list); i++) {
+		fprintf(out, "\n sizeof(x) = %zu", sizeof(x));
+		fprintf(out, "\n sizeof(p) = %zu", sizeof(p));
+		fprintf(out, "\n%s\n", LINE);
+
+		for (int i = 0, iLen = listSize; i < iLen; i++) {
 			x = *p;
-			fprintf(out, "%d\n", x);
+			fprintf(out, "\n[%02d] x = %d", i, x);
 			p++;
 		}
 		fprintf(out, "\n%s\n", LINE);
+		
+		pressAnyKeyToContinue();
 	}
 
 	fprintf(out, LINE);
-	fflush(out);
-	fprintf(out, "\nEnter any key to continue. ");
-	_getch();
+	//pressAnyKeyToContinue();
 	return 0;
 }
 // end of file
