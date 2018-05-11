@@ -17,6 +17,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lec_01", "lec_01\ConsoleApp
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lec_07", "lec_07\lec_07.vcxproj", "{A3F1D668-6376-4B88-A5DD-20F9EA0D1C34}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lec_09", "lec_09\lec_09.vcxproj", "{62718BA2-4F4B-4E5C-BD2B-C73F012B319A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -81,6 +83,14 @@ Global
 		{A3F1D668-6376-4B88-A5DD-20F9EA0D1C34}.Release|x64.Build.0 = Release|x64
 		{A3F1D668-6376-4B88-A5DD-20F9EA0D1C34}.Release|x86.ActiveCfg = Release|Win32
 		{A3F1D668-6376-4B88-A5DD-20F9EA0D1C34}.Release|x86.Build.0 = Release|Win32
+		{62718BA2-4F4B-4E5C-BD2B-C73F012B319A}.Debug|x64.ActiveCfg = Debug|x64
+		{62718BA2-4F4B-4E5C-BD2B-C73F012B319A}.Debug|x64.Build.0 = Debug|x64
+		{62718BA2-4F4B-4E5C-BD2B-C73F012B319A}.Debug|x86.ActiveCfg = Debug|Win32
+		{62718BA2-4F4B-4E5C-BD2B-C73F012B319A}.Debug|x86.Build.0 = Debug|Win32
+		{62718BA2-4F4B-4E5C-BD2B-C73F012B319A}.Release|x64.ActiveCfg = Release|x64
+		{62718BA2-4F4B-4E5C-BD2B-C73F012B319A}.Release|x64.Build.0 = Release|x64
+		{62718BA2-4F4B-4E5C-BD2B-C73F012B319A}.Release|x86.ActiveCfg = Release|Win32
+		{62718BA2-4F4B-4E5C-BD2B-C73F012B319A}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

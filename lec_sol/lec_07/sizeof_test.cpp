@@ -47,7 +47,6 @@ int mainSizeOfTest(int argc, char ** argv) {
 		pressAnyKeyToContinue();
 	}
 
-
 	if (true) {
 		fprintf(out, "\n%s\n", LINE);
 		fprintf(out, "\n%s", "   array for loop" );
@@ -72,8 +71,9 @@ int mainSizeOfTest(int argc, char ** argv) {
 		int list[ listSize ];
 		int * p = list;
 		int x;
-		fprintf(out, "\n sizeof(x) = %zu", sizeof(x));
-		fprintf(out, "\n sizeof(p) = %zu", sizeof(p));
+		fprintf(out, "\n sizeof(list) = %zu", sizeof(list));
+		fprintf(out, "\n sizeof(p)    = %zu", sizeof(p));
+		fprintf(out, "\n sizeof(x)    = %zu", sizeof(x));
 		fprintf(out, "\n%s\n", LINE);
 
 		for (int i = 0, iLen = listSize; i < iLen; i++) {
@@ -90,4 +90,4 @@ int mainSizeOfTest(int argc, char ** argv) {
 	//pressAnyKeyToContinue();
 	return 0;
 }
-// end of file
+// end of file 
