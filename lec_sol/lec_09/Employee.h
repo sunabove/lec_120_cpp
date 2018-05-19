@@ -4,9 +4,9 @@
 using namespace std;
 
 struct Name {
-	wstring first;
-	wstring middle;
-	wstring last;
+	string first;
+	string middle;
+	string last;
 };
 
 struct Address {
