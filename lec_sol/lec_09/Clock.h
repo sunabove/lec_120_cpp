@@ -1,12 +1,15 @@
 #pragma once
 class Clock
 {
+public:   static int clockCount; 
+
 private:
 	int hr;
 	int min;
 	int sec;
 public:
 	Clock();
+	Clock(int hr, int min, int sec);
 	~Clock();
 public:
 	void setTime(int hr, int min, int sec);
