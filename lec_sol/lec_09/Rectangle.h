@@ -1,10 +1,10 @@
 #pragma once
 #include "Shape.h"
-class Rectangle :
-	public Shape
+class Rectangle : public Shape
 {
 public:
 	Rectangle();
+	Rectangle(const Rectangle & rectangle);
 	~Rectangle();
 protected:
 	double width;

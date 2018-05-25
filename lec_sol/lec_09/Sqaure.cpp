@@ -11,10 +11,10 @@ Sqaure::~Sqaure() {
 
 void Sqaure::setWidth(int width) {
 	this->width = width;
-	this->setHeight = height;
+	this->height = height;
 }
 
 void Sqaure::setHeight(int height) {
 	this->width = width;
-	this->setHeight = height;
+	this->height = height;
 }
