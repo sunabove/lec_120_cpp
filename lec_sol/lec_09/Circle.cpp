@@ -8,3 +8,7 @@ Circle::Circle() {
 
 Circle::~Circle() {
 }
+
+void Circle::draw() {
+	this->log("Cricle is drawing.");
+}

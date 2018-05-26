@@ -10,5 +10,7 @@ public:
 private:
 	Point center;
 	double radius;
+public:
+	void draw();
 };
 
