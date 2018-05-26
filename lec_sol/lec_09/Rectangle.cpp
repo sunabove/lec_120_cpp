@@ -8,6 +8,8 @@ Rectangle::Rectangle() {
 
 Rectangle::Rectangle(const Rectangle & rectangle) {
 	this->log("Rectangle copy constructor is called.");
+	this->width = rectangle.width;
+	this->height = rectangle.height;
 }
 
 Rectangle::~Rectangle() {
@@ -20,4 +22,8 @@ void Rectangle::setWidth(int width) {
 
 void Rectangle::setHeight(int height) {
 	this->height = height;
+}
+
+void Rectangle::draw() {
+	this->log("Rectangle is drawing.");
 }

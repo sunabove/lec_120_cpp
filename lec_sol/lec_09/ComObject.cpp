@@ -16,5 +16,5 @@ void ComObject::log(const char * str) {
 }
 
 void ComObject::log(std::string * str) {
-	this->log(str.c_str());
+	this->log(str->c_str());
 }
