@@ -149,11 +149,25 @@
   <ItemGroup>
     <ClInclude Include="basewin.h" />
     <ClInclude Include="Resource.h" />
+    <ClInclude Include="shape\Circle.h" />
+    <ClInclude Include="shape\ComObject.h" />
+    <ClInclude Include="shape\Point.h" />
+    <ClInclude Include="shape\Rectangle.h" />
+    <ClInclude Include="shape\Shape.h" />
+    <ClInclude Include="shape\Sqaure.h" />
+    <ClInclude Include="shape\zf_log.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
     <ClInclude Include="WindowsProject1.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="shape\Circle.cpp" />
+    <ClCompile Include="shape\ComObject.cpp" />
+    <ClCompile Include="shape\Point.cpp" />
+    <ClCompile Include="shape\Rectangle.cpp" />
+    <ClCompile Include="shape\Shape.cpp" />
+    <ClCompile Include="shape\Sqaure.cpp" />
+    <ClCompile Include="shape\zf_log.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>

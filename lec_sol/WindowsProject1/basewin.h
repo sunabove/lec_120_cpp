@@ -1,8 +1,5 @@
 #pragma once
-
-/// base windows 베이스 윈도우즈 ㅋㅋ
-
-
+// BaseWindow
 template <class DERIVED_TYPE> 
 class BaseWindow
 {
@@ -45,8 +42,7 @@ public:
 		int nHeight = CW_USEDEFAULT,
 		HWND hWndParent = 0,
 		HMENU hMenu = 0
-	)
-	{
+	) {
 		WNDCLASS wc = {0};
 
 		wc.lpfnWndProc   = DERIVED_TYPE::WindowProc;
