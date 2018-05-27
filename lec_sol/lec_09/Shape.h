@@ -1,7 +1,7 @@
 #pragma once
 #include "ComObject.h"
 
-class Shape : public ComObject
+class Shape abstract : public ComObject
 {
 public:
 	Shape();

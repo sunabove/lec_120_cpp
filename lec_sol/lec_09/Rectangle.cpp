@@ -1,19 +1,16 @@
 #include "stdafx.h"
 #include "Rectangle.h"
 
-
 Rectangle::Rectangle() {
-	this->log("Rectangle default constructor is called.");
+	ZF_LOGW("object id = %04d , constructor" , this->id);
 }
 
 Rectangle::Rectangle(const Rectangle & rectangle) {
-	this->log("Rectangle copy constructor is called.");
-	this->width = rectangle.width;
-	this->height = rectangle.height;
+	ZF_LOGW("object id = %04d , copy constructor" , this->id);
 }
 
 Rectangle::~Rectangle() {
-	this->log("Rectangle destructor is called.");
+	ZF_LOGW("object id = %04d , destructor" , this->id);
 }
 
 void Rectangle::setWidth(int width) {
@@ -25,5 +22,5 @@ void Rectangle::setHeight(int height) {
 }
 
 void Rectangle::draw() {
-	this->log("Rectangle is drawing.");
+	ZF_LOGW("Rectangle is drawing.");
 }

@@ -3,12 +3,14 @@
 
 
 Circle::Circle() {
+	ZF_LOGW("object id = %04d , constructor" , this->id);
 }
 
 
 Circle::~Circle() {
+	ZF_LOGW("object id = %04d , destructor" , this->id);
 }
 
 void Circle::draw() {
-	this->log("Cricle is drawing.");
+	ZF_LOGW("Cricle is drawing.");
 }

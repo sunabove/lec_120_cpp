@@ -5,8 +5,9 @@ class Rectangle : public Shape
 public:
 	Rectangle();
 	Rectangle(const Rectangle & rectangle);
-	~Rectangle();
-protected:
+	virtual ~Rectangle();
+
+public:
 	double width;
 	double height;
 

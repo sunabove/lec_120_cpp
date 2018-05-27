@@ -2,19 +2,14 @@
 #include "ComObject.h"
 
 int ComObject::LAST_ID = 0; 
+
 ComObject::ComObject() {
-	this->id = ComObject::LAST_ID++;
+	this->id = ++ ComObject::LAST_ID ;
+	ZF_LOGW("object id = %04d , constructor" , this->id);
 }
 
 ComObject::~ComObject() {
+	ZF_LOGW("object id = %04d , destructor" , this->id);
 }
 
-void ComObject::log(const char * str) {
-	fprintf(stdout, str);
-	fprintf(stdout, "\r\n");
-	fflush(stdout);
-}
-
-void ComObject::log(std::string * str) {
-	this->log(str->c_str());
-}
+#//
