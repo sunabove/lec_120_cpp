@@ -152,7 +152,7 @@
     <ClInclude Include="shape\Circle.h" />
     <ClInclude Include="shape\ComObject.h" />
     <ClInclude Include="shape\Point.h" />
-    <ClInclude Include="shape\Rectangle.h" />
+    <ClInclude Include="shape\Rect.h" />
     <ClInclude Include="shape\Shape.h" />
     <ClInclude Include="shape\Sqaure.h" />
     <ClInclude Include="shape\zf_log.h" />
@@ -164,7 +164,7 @@
     <ClCompile Include="shape\Circle.cpp" />
     <ClCompile Include="shape\ComObject.cpp" />
     <ClCompile Include="shape\Point.cpp" />
-    <ClCompile Include="shape\Rectangle.cpp" />
+    <ClCompile Include="shape\Rect.cpp" />
     <ClCompile Include="shape\Shape.cpp" />
     <ClCompile Include="shape\Sqaure.cpp" />
     <ClCompile Include="shape\zf_log.cpp" />

@@ -1,16 +1,15 @@
 #pragma once
 #include "Shape.h"
 #include "Point.h"
-class Circle :
-	public Shape
+
+class Circle : public Shape
 {
 public:
 	Circle();
 	~Circle();
-private:
-	Point center;
-	double radius;
 public:
-	void draw();
+	float radius;
+public:
+	virtual void draw(ID2D1HwndRenderTarget * target);
 };
 

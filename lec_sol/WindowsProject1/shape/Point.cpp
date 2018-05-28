@@ -10,6 +10,6 @@ Point::~Point() {
 	ZF_LOGW("object id = %04d , destructor" , this->id);
 }
 
-void Point::draw() {
+void Point::draw(ID2D1HwndRenderTarget * target) {
 	ZF_LOGW("Point is drawing.");
 }

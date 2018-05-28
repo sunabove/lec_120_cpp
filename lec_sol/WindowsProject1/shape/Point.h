@@ -1,15 +1,19 @@
 #pragma once
-#include "Shape.h"
-class Point :
-	public Shape
+#include "ComObject.h"
+
+#include <windows.h>
+#include <d2d1.h>
+
+class Point : public ComObject 
 {
 public:
 	Point();
 	~Point();
 
 public:
-	double x;
-	double y;
-	void draw();
+	float x;
+	float y;
+public:
+	virtual void draw(ID2D1HwndRenderTarget * target);
 };
 

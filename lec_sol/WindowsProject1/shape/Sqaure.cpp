@@ -9,12 +9,12 @@ Sqaure::Sqaure() {
 Sqaure::~Sqaure() {
 }
 
-void Sqaure::setWidth(int width) {
+void Sqaure::setWidth(float width) {
 	this->width = width;
 	this->height = height;
 }
 
-void Sqaure::setHeight(int height) {
+void Sqaure::setHeight(float height) {
 	this->width = width;
 	this->height = height;
 }

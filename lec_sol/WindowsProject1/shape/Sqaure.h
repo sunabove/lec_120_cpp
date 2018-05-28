@@ -1,13 +1,12 @@
 #pragma once
-#include "Rectangle.h"
-class Sqaure :
-	public Rectangle
+#include "Rect.h"
+class Sqaure : public Rect
 {
 public:
 	Sqaure();
 	~Sqaure();
 public:
-	void setWidth(int width);
-	void setHeight(int height);
+	void setWidth(float width);
+	void setHeight(float height);
 };
 
