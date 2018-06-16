@@ -25,3 +25,8 @@ MainPage::MainPage()
 {
 	InitializeComponent();
 }
+
+
+void WindowsUniversalApp1::MainPage::myButton_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e) {
+	this->myTextBlock->Text = this->myTextBox->Text;
+}

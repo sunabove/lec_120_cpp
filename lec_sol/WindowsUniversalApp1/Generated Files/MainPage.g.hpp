@@ -28,8 +28,26 @@ void ::WindowsUniversalApp1::MainPage::InitializeComponent()
 
 void ::WindowsUniversalApp1::MainPage::Connect(int __connectionId, ::Platform::Object^ __target)
 {
-    __connectionId;         // unreferenced 
-    __target;               // unreferenced
+    switch (__connectionId)
+    {
+    case 1:
+        {
+            this->myButton = safe_cast<::Windows::UI::Xaml::Controls::Button^>(__target);
+            (safe_cast<::Windows::UI::Xaml::Controls::Button^>(this->myButton))->Click += ref new ::Windows::UI::Xaml::RoutedEventHandler(this, (void (::WindowsUniversalApp1::MainPage::*)
+                (::Platform::Object^, ::Windows::UI::Xaml::RoutedEventArgs^))&MainPage::myButton_Click);
+        }
+        break;
+    case 2:
+        {
+            this->myTextBox = safe_cast<::Windows::UI::Xaml::Controls::TextBox^>(__target);
+        }
+        break;
+    case 3:
+        {
+            this->myTextBlock = safe_cast<::Windows::UI::Xaml::Controls::TextBlock^>(__target);
+        }
+        break;
+    }
     _contentLoaded = true;
 }
 

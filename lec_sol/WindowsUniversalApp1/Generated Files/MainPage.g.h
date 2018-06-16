@@ -7,6 +7,17 @@
 //------------------------------------------------------------------------------
 
 
+namespace Windows {
+    namespace UI {
+        namespace Xaml {
+            namespace Controls {
+                ref class Button;
+                ref class TextBox;
+                ref class TextBlock;
+            }
+        }
+    }
+}
 
 namespace WindowsUniversalApp1
 {
@@ -28,6 +39,9 @@ namespace WindowsUniversalApp1
         bool _contentLoaded;
     
     
+        private: ::Windows::UI::Xaml::Controls::Button^ myButton;
+        private: ::Windows::UI::Xaml::Controls::TextBox^ myTextBox;
+        private: ::Windows::UI::Xaml::Controls::TextBlock^ myTextBlock;
     };
 }
 

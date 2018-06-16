@@ -17,5 +17,7 @@ namespace WindowsUniversalApp1
 	public:
 		MainPage();
 
+	private:
+		void myButton_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e);
 	};
 }
