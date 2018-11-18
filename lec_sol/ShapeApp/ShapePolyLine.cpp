@@ -1,12 +1,12 @@
 #include "pch.h"
-#include "ShapePolyLine.h"
+#include "ShapePolyline.h"
 
 
-ShapePolyLine::ShapePolyLine()
+ShapePolyline::ShapePolyline()
 {
 }
 
 
-ShapePolyLine::~ShapePolyLine()
+ShapePolyline::~ShapePolyline()
 {
 }

@@ -1,7 +1,7 @@
 #pragma once
-#include "ShapeGeometry.h"
+#include "Shape.h"
 class ShapePoint :
-	public ShapeGeometry
+	public Shape
 {
 public:
 	ShapePoint();

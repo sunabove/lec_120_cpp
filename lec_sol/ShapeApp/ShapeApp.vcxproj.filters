@@ -21,28 +21,31 @@
     <ClInclude Include="Shape.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="ShapeMainFile.h">
+    <ClInclude Include="ShapeCom.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="ShapeIndexFile.h">
+    <ClInclude Include="Box.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="ShapeMainFileHeader.h">
+    <ClInclude Include="Interval.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="ShapeGeometry.h">
+    <ClInclude Include="MainFileHeader.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="ShapeIndex.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="ShapePolyLine.h">
+    <ClInclude Include="Header.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="ShapePoint.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="ShapePolyline.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
     <ClInclude Include="ShapePolygon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ShapeFile.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -50,34 +53,37 @@
     <ClCompile Include="pch.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="ShapeApp.cpp">
+    <ClCompile Include="shapeApp.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Shape.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="ShapeMainFile.cpp">
+    <ClCompile Include="ShapeCom.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="ShapeIndexFile.cpp">
+    <ClCompile Include="Box.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="ShapeMainFileHeader.cpp">
+    <ClCompile Include="Interval.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="ShapeGeometry.cpp">
+    <ClCompile Include="MainFileHeader.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="ShapeIndex.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="ShapePolyLine.cpp">
+    <ClCompile Include="Header.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="ShapePoint.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="ShapePolyline.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="ShapePolygon.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ShapeFile.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

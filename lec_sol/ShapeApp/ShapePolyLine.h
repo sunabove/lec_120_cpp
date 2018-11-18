@@ -1,10 +1,10 @@
 #pragma once
-#include "ShapeGeometry.h"
-class ShapePolyLine :
-	public ShapeGeometry
+#include "Shape.h"
+class ShapePolyline :
+	public Shape
 {
 public:
-	ShapePolyLine();
-	virtual ~ShapePolyLine();
+	ShapePolyline();
+	virtual ~ShapePolyline();
 };
 

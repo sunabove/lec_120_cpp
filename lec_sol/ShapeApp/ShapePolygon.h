@@ -1,8 +1,7 @@
 #pragma once
-#include "ShapePolyLine.h"
-
+#include "ShapePolyline.h"
 class ShapePolygon :
-	public ShapePolyLine
+	public ShapePolyline
 {
 public:
 	ShapePolygon();
